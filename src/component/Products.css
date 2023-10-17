@@ -1,0 +1,64 @@
+/* Products.css */
+
+.filter-box {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  .filter-section h3 {
+    font-weight: bold;
+  }
+  
+  .filter-section label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .filter-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn-clear {
+    background-color: #ff5733;
+    color: #fff;
+  }
+  
+  .btn-apply {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .btn-clear, .btn-apply {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-clear:hover, .btn-apply:hover {
+    opacity: 0.9;
+  }
+  
+  .btn.btn-clear {
+    background-color: lightcoral; /* Light red background color */
+    color: white; /* White text color */
+    /* You can also add additional styling if needed, such as padding, border, etc. */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+
+  .btn.btn-apply {
+    background-color: green;
+    color: black;
+  }
+  
